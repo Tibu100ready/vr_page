@@ -1,0 +1,156 @@
+:root {--blue:#93B5C9;
+    --wine:#AB2849;
+    --green:#A4C8B7;
+    --yellow:#F2D3A0;
+    --red:#D95D6A;
+    --black:#000000;
+    --white:#FFFFFF;
+    --gray:#808080;
+    --lightgray:#D3D3D3;
+    --darkgray:#A9A9A9;
+    --lightblue:#ADD8E6;
+    --darkblue:#00008B;
+    --lightgreen:#90EE90;
+    --darkgreen:#006400;
+    --lightred:#FF7F7F;
+    --darkred:#8B0000;
+    --lightyellow:#FFFFE0;
+    --darkyellow:#FFD700;
+    --lightpurple:#E6E6FA;
+    --darkpurple:#800080;
+    --lightorange:#FFA07A;
+    --darkorange:#FF4500;
+    --lightpink:#FFB6C1;
+    --darkpink:#FF1493;
+    --lightcyan:#E0FFFF;
+    --darkcyan:#008B8B;
+    --lightcoral:#F08080;
+    --darkcoral:#CD5C5C;
+    --lightsteelblue:#B0C4DE;
+    --darksteelblue:#4682B4;
+    --lightgoldenrod:#FAFAD2;
+    --darkgoldenrod:#B8860B;
+    --lightkhaki:#F0E68C;
+    --darkkhaki:#BDB76B;
+    --darkred:#8B0000;
+    --holis:#232644;
+    --rod:#060606;
+    --kpmg: #010105;
+    --darkblue:#00008B;}
+
+    body {
+        font-family: 'Krub', Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #2c2c2c; /* Fondo oscuro */
+        color: var(--lightpurple); /* Texto en color claro */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centra el contenido horizontalmente */
+    }
+    
+    header {
+        background: #1a1a1a; /* Fondo más oscuro para el encabezado */
+        color: var(--lightyellow);
+        padding: 10px 0;
+        text-align: center;
+        width: 100%; /* Asegura que el encabezado ocupe todo el ancho */
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: var(--lightpurple); /* Enlaces en color claro */
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 20px;
+        margin: 10px;
+        background-color: #3c3c3c; /* Fondo gris oscuro para secciones */
+        border-radius: 5px; /* Bordes redondeados */
+        width: 80%; /* Ancho del contenido */
+    }
+    
+    .experiencia-item {
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px; /* Bordes redondeados */
+    }
+    
+.imagen {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center; /* Centra la imagen verticalmente */
+        border-radius: 1%;
+        border: 1px solid var(--lightyellow); /* Borde amarillo claro */
+    }
+
+    .kpmg {
+        background-color: var(--kpmg); /* Color específico para KPMG */
+    }
+    
+    .carroferta {
+        background-color: var(--rod); /* Color específico para Carroferta */
+    }
+    
+    .real {
+        background-color: var(--kpmg); /* Color específico para Real Time Sportcast */
+    }
+    
+    .wawa {
+        background-color: var(--rod); /* Color específico para La Wawa */
+    }
+
+    .creado {
+        background-color: var(--kpmg);
+        font-size: extra-large;
+        color: var(--lightcyan); /* Color de texto claro */
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background: #1a1a1a; /* Fondo más oscuro para el pie de página */
+        width: 100%; /* Asegura que el pie de página ocupe todo el ancho */
+    }
+
+/* * {width: 1000px;
+ height: 150px;
+ margin: 0px;
+ padding: 0px;
+ position: relative;
+ background: none;
+ background-size:cover; 
+ background-color: var(--lightcyan);
+ background-repeat:no-repeat;
+ /* background-image: url(lobo.png); */
+ /* background-position: left;
+ z-index: 0; } */
+/* 
+
+ .principal--1 {width: 1000px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background: none;
+    display: flex;
+    background-size:cover;
+    background-repeat:no-repeat;
+    /* background-image: url(lobo.png); */
+    /* background-position: left;
+    color: var(--wine);
+    z-index: -1; } */ 
+
+
